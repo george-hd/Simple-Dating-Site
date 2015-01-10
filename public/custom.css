@@ -1,0 +1,182 @@
+body{
+    background-color: #dddddd;
+}
+
+.navbar{
+    background-color: #2c3e50;
+    border: 1px solid #FFFFFF;
+}
+
+.navbar-right{
+    padding-right: 2rem;
+}
+
+.nav > li > a.nav-a{
+    color: #ffff00;
+}
+
+.error{
+    color: #FF0000;
+}
+
+.btn{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#friend-ship{
+    white-space: normal;
+    max-width: 10rem;
+    color: #000000;
+    background: linear-gradient(#AAAAAA, #ffffff, #AAAAAA);
+}
+
+.timestamps{
+    padding-top: 2rem;
+    color: #3071A9;
+}
+
+.success{
+    color: #008000;
+}
+
+.img200x200{
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.img100x100{
+    max-width: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    min-width: 100px;
+    margin-bottom: 0.5rem;
+}
+
+.img25x25{
+    max-width: 25px;
+    max-height: 25px;
+    min-height: 25px;
+    min-width: 25px;
+}
+
+.send-message-box{
+    min-width: 50rem;
+    max-width: 50rem;
+    min-height: 15rem;
+    max-height: 15rem;
+}
+
+div.messages{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #cccccc;
+    max-width: 95%;
+}
+
+.user-data{
+    padding-left: 2rem;
+    color: #666666;
+}
+
+.album:hover{
+    border: 1px solid #3071a9;
+    border-radius: 5px;
+}
+
+.chat{
+    max-width: 100%;
+    margin-left: 0.2%;
+    height: 400px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.chat-users{
+    background-color: #3D9970;
+    height: 100%;
+    border-radius: 2px;
+    border-right: 2px solid gray;
+}
+
+#my-cam{
+    background-color: lightgreen;
+    height: 100%;
+    word-wrap: break-word;
+    overflow-y: scroll;
+}
+
+.send-chat-message-box{
+    min-width: 103%;
+    max-width: 103%;
+    min-height: 8rem;
+    max-height: 8rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.send-message-btn{
+    min-height: 8rem;
+    max-height: 8rem;
+    min-width: 103%;
+    max-width: 103%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: #CCCCCC;
+    color: #262626;
+}
+
+.send-message-btn:hover{
+    background: linear-gradient(#AAAAAA, #ffffff, #AAAAAA);
+}
+
+#chat-table{
+    max-width: 100%;
+    min-height: 396px;
+    max-height: 396px;
+    word-wrap: break-word;
+    overflow-y: scroll;
+}
+
+.user-names{
+    margin-bottom:2px;
+}
+
+.webcam-off{
+    visibility: hidden;
+}
+
+.webcam-on{
+    visibility: visible;
+}
+
+#ul-drop-down{
+    background-color: #2c3e50;
+}
+
+#menu-drop-down>a, #ul-drop-down>li>a{
+    background-color: #2c3e50;
+    color: #ffff00;
+}
+
+#menu-drop-down>a:hover, #ul-drop-down>li>a:hover{
+    color: #ffffff;
+}
+
+div.default-container{
+    min-height: 90.3vh;
+}
+
+footer{
+    max-height: 100%;
+    min-height: 100%;
+    width: 100%;
+    background-color: #2c3e50;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #ffff00;
+    border: 1px solid midnightblue;
+}
